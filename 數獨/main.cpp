@@ -1,5 +1,7 @@
 #include "Generate.h"
 #include "Blank.h"
+#include"FillBlank.h"
+#include "Answer.h"
 #include <iostream>
 #include <vector>
 using namespace std;
