@@ -19,17 +19,17 @@ footer: "吉娃娃不要狗叫"
 
 系級班級
 ---
-資工二Ａ & 資工三Ａ
+資工一Ａ & 資工二Ａ
 
 組別號碼
 ---
-第九組
+第一組
 
 ---
 
 成員資訊
 ---
-陳任璿(組長)<br>  王翌權<br>  宋承哲
+王正坤(組長)<br>  王翌權<br>  沈柏瑋
 
 ---
 
@@ -46,18 +46,29 @@ footer: "吉娃娃不要狗叫"
 | Generate |
 | :--- |
 | + `Generate()`<br> + `void generator()`<br> + `vector<int > get_board()`<br> + `bool check_rep(vector<int>,int,int)`<br> + `bool board_put(vector<int>&)`|
-| - `int new_board[][]`<br> - `int i,j,k,l` |
+| - `int new_board[][]`<br> - int i,j,k,l |
 
 
 ---
 
 | Blank |
 | :-- |
-| + `void receive_board(vector <int>)`<br> + `void hole_board(int)` <br> + `vector<int> return_board()`|
+| + `void receive_board(vector <int>)`<br> + void hole_board(int) <br> + `vector<int> return_board()`|
 | - `vector<int> revise_board`<br> - `int Hollow_quantity`|
 
 ---
 
+| FillBlank |
+| :--|
+| + `FillBlank()`<br> + `FillBlank(int,int,int)`<br> + void setX(int) setY(int) `void setN(int)`<br> + int getX() int getY() `int getN()`|
+| - `void receive_board(vector <int >)`<br> - `vector<int > fill()`<br> - `void get_board()`<br> - `vector<int> return_board()`|
+
+---
+
+| Answer |
+| :--|
+| + `void receive_original_board(vector <int >)`<br> + `void receive_revise_board(vector <int >)`<br> + `bool comparison()`<br> + `void get_board()`|
+| - `vector<int > original_board`<br> - `vector<int > revise_board`|
 
 ---
 
@@ -99,7 +110,22 @@ footer: "吉娃娃不要狗叫"
 ![bg right 100%](圖片/產生挖空後的棋盤.png)
 
 ---
+**填空一**
+![bg right 100%](圖片/填空一.png)
 
+---
+**印出數入數字後填空一的棋盤**
+![bg right 100%](圖片/印出數入數字後填空一的棋盤.png)
+
+---
+**填空二**
+![bg right 100%](圖片/填空二.png)
+
+---
+**完成數獨印出結果**
+![bg right 100%](圖片/完成數獨印出結果.png)
+
+---
 ---
 
 分工資訊
