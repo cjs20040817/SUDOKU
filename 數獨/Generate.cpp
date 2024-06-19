@@ -61,14 +61,6 @@ vector <int > Generate::get_board() { //輸出棋盤至vector變數
         }
     }
 
-    // for( int i=0 ;i < out_board.size() ; i++ ){
-    //     cout << out_board[i] << ' ';
-    //     if((i+1) % 9 == 0){
-    //         cout << endl;
-    //    }
-    // }
-    // cout << endl;
-
     return out_board;
 }
 
