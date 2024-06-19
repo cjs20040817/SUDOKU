@@ -2,7 +2,7 @@
 #include "Generate.h"
 
 void Blank::receive_board(vector <int > x) {
-    revise_board = x;
+    revise_board = x;// 接收一個整數向量作為參數，用來初始化或更新遊戲板
 }
 
 void Blank::hole_board(int x) {
