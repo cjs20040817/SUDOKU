@@ -7,7 +7,7 @@ void Answer::receive_original_board(vector <int > x) {
 void Answer::receive_revise_board(vector <int > x) {
     revise_board = x;
 }
-
+//比較更改前後是否相同
 bool Answer::comparison() {
     int x = 0;
     for (int i = 0; i < 81; i++) {
@@ -17,11 +17,11 @@ bool Answer::comparison() {
     if (x == 0) get_board();
     return original_board == revise_board ? false : true;
 }
-
+//修正後的棋盤
 void Answer::get_board() {
     for (int i = 0; i < revise_board.size(); i++) {
         if (i == 27 || i == 54) cout << "------+-------+------" << endl;
-        cout << revise_board[i] << ' ';
+        cout << revise_board[i] << ' ';// 印出當前格子的數字
         if (i % 9 == 2 || i % 9 == 5) cout << "| ";
         if ((i + 1) % 9 == 0) {
             cout << endl;
